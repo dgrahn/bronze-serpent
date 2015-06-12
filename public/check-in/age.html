@@ -27,17 +27,16 @@
   <body>
   
     <nav>
-      <div class="info">
-        <img src="../img/venus_white.svg" alt="Female" class="sex"/>
-        <span class="age">&nbsp;</span>
-      </div>
-      <a href="index.html" class="backward">&lt;</a>
-      <a href="level.html" class="forward">&gt;</a>
+      <a href="level.html" class="next">&gt;</a>
+      <a href="#" class="help"><img src="../img/caduceus.svg" alt="!"/></a>
+      <a href="index.html"><img src="../img/venus_white.svg" alt="Female" class="sex"/></a>
     </nav>
   
     <input type="text" id="age-display" value="60" disabled/>
     
     <input id="age" type="range" min="0" max="120" value="60" oninput="updateValue(this.value);"/>
+    
+    <a href="#" id="help"><img src="../img/caduceus.svg" alt="!"/></a>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
