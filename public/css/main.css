@@ -79,7 +79,7 @@ nav .level { display: block; margin-top: 2rem; border-radius: 1rem; height: 5rem
   font-size: 10rem;
   position: absolute;
   text-align: center;
-  top: 13%;
+  bottom: 1rem; 
   width: 100%;
 }
 
@@ -93,3 +93,10 @@ nav .level { display: block; margin-top: 2rem; border-radius: 1rem; height: 5rem
 
 /* ----- Camera/Screen ----- */
 .fullscreen { height: 100%; min-width: 100%; }
+
+/* ----- Treatment ----- */
+.reading { font-size: 13rem; color: white; }
+.reading .icon { display: inline-block; }
+.reading .icon.heart { color: red; padding-left: 1rem; }
+.reading .icon.oxygen img { height: 13rem; margin: -2rem 0 0 -3rem;  }
+.reading div { text-align: center; width: 100%; }

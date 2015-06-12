@@ -28,14 +28,29 @@
   <body>
   
     <nav>
-      <a href="level.html" class="next">&gt;</a>
+      <a href="#" class="next">&gt;</a>
       <a href="#" class="help"><img src="../img/caduceus.svg" alt="!"/></a>
-      <a href="index.html"><img src="../img/venus_white.svg" alt="Female" class="sex"/></a>
+      <a href="#"><img src="../img/venus_white.svg" alt="Female" class="sex"/></a>
+      <a href="#" class="age">37</a>
+      <a href="#"><span class="level medium"/></a>
+      <a href="#" class="picture"><img src="../img/camera.jpg" alt="Picture"/></a>
     </nav>
-  
-    <input type="text" id="age-display" value="60" disabled/>
     
-    <input id="age" type="range" min="0" max="120" value="60" oninput="updateValue(this.value);"/>
+    
+    <div class="row">
+      <div class="col-xs-6 reading">
+        <div>
+          <span class="rate">120</span><span class="heart icon">&#10084;</span>
+        </div>
+      </div>
+      <div class="col-xs-6 reading" style="text-align: right;">
+        <div>
+          <span class="oxygen">94</span>
+          <span class="oxygen icon"><img src="../img/wind.svg" alt=""/></span>
+        </div>
+      </div>
+    </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
